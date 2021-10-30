@@ -1,3 +1,9 @@
 {
     "build": { "dockerfile": "Dockerfile" },
+    "extensions": [
+        "marcostazi.VS-code-drupal",
+        "neilbrayfield.php-docblocker",
+        "mblode.twig-language-2",
+        "redhat.vscode-yaml"
+    ]
 }
