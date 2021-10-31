@@ -8,7 +8,8 @@
 		"andrewdavidblum.drupal-smart-snippets",
 		"coenraads.bracket-pair-colorizer",
 		"neilbrayfield.php-docblocker",
-		"yahyaahmad.drupal-intellisense"
+		"yahyaahmad.drupal-intellisense",
+		"editorconfig.editorconfig"
 	],
     "settings": {
         "files.associations": {
