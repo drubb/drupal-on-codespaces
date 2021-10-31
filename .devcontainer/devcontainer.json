@@ -6,7 +6,8 @@
         "mblode.twig-language-2",
         "bmewburn.vscode-intelephense-client",
         "andrewdavidblum.drupal-smart-snippets",
-        "coenraads.bracket-pair-colorizer"
+        "coenraads.bracket-pair-colorizer",
+        "neilbrayfield.php-docblocker"
     ],
     "settings": {
         "files.associations": {
@@ -35,6 +36,8 @@
             "**/*.api.php"
         ],
         "php.suggest.basic": false,
-        "php.validate.enable": false
+        "php.validate.enable": false,
+        "php-docblocker.returnGap": true,
+        "php-docblocker.useShortNames": true
     }
 }
