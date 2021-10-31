@@ -1,9 +1,19 @@
 {
-    "build": { "dockerfile": "Dockerfile" },
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
     "extensions": [
-        "marcostazi.VS-code-drupal",
-        "neilbrayfield.php-docblocker",
-        "mblode.twig-language-2",
-        "redhat.vscode-yaml"
-    ]
+		"mblode.twig-language-2",
+		"bmewburn.vscode-intelephense-client",
+		"andrewdavidblum.drupal-smart-snippets",
+		"coenraads.bracket-pair-colorizer"
+	],
+    "settings": {
+        "files.associations": {
+            "*.inc": "php",
+            "*.install": "php",
+            "*.module": "php",
+            "*.theme": "php"
+        }
+    }
 }
