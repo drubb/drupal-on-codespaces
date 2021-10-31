@@ -7,7 +7,7 @@ and adding some useful VSCode extensions and settings.
 
 * Open this project in Codespaces
 * Open the terminal
-* Create a Drupal project: `composer create-project drupal/recommended-project <myfolder>
+* Create a Drupal project: `composer create-project drupal/recommended-project <myfolder>`
 * Enter the created folder: `cd <myfolder>`
 * Add Drush: `composer require drush/drush`
 * Start the Drupal installation: `drush si` - specify **sqlite** as Database driver, defaults otherwise!
