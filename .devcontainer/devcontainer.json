@@ -32,7 +32,7 @@
             "**/vendor/**/{Tests,tests}/**",
             "**/.history/**",
             "**/vendor/**/vendor/**",
-            "**/.api.php/**"
+            "**/*.api.php"
         ],
         "php.suggest.basic": false,
         "php.validate.enable": false
