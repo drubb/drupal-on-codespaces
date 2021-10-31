@@ -3,17 +3,21 @@
         "dockerfile": "Dockerfile"
     },
     "extensions": [
-		"mblode.twig-language-2",
-		"bmewburn.vscode-intelephense-client",
-		"andrewdavidblum.drupal-smart-snippets",
-		"coenraads.bracket-pair-colorizer"
-	],
+        "mblode.twig-language-2",
+        "bmewburn.vscode-intelephense-client",
+        "andrewdavidblum.drupal-smart-snippets",
+        "coenraads.bracket-pair-colorizer"
+    ],
     "settings": {
         "files.associations": {
             "*.inc": "php",
             "*.install": "php",
             "*.module": "php",
-            "*.theme": "php"
+            "*.theme": "php",
+            "*.html": "twig"
+        },
+        "emmet.includeLanguages": {
+            "twig": "html"
         },
         "intelephense.completion.fullyQualifyGlobalConstantsAndFunctions": true,
         "intelephense.format.braces": "k&r",
