@@ -3,16 +3,16 @@
         "dockerfile": "Dockerfile"
     },
     "extensions": [
-		"mblode.twig-language-2",
-		"bmewburn.vscode-intelephense-client",
-		"yahyaahmad.drupal-intellisense",
-		"andrewdavidblum.drupal-smart-snippets",
-		"coenraads.bracket-pair-colorizer",
-		"neilbrayfield.php-docblocker",
-		"editorconfig.editorconfig",
-		"esbenp.prettier-vscode",
-		"dbaeumer.vscode-eslint"
-	],
+        "mblode.twig-language-2",
+        "bmewburn.vscode-intelephense-client",
+        "yahyaahmad.drupal-intellisense",
+        "andrewdavidblum.drupal-smart-snippets",
+        "coenraads.bracket-pair-colorizer",
+        "neilbrayfield.php-docblocker",
+        "editorconfig.editorconfig",
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint"
+    ],
     "settings": {
         "files.associations": {
             "*.inc": "php",

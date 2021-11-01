@@ -1,5 +1,6 @@
 *
-!.devcontainer
+!.devcontainer/
+!.devcontainer/php.ini
 !.gitignore
 !LICENCE
 !README.md
