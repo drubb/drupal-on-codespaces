@@ -3,6 +3,10 @@
 This project enables running Drupal projects on Github Codespaces, providing a customized container environment
 and adding some useful VSCode extensions and settings.
 
+> Disclaimer:
+[Github Codespaces](https://github.com/features/codespaces) is still in private beta. You need a Github account
+with activated Codespaces, then you'll see a "Codespaces" tab using the "<> Code" button located above any repository.
+
 ## Quickstart
 
 * Open this project in Codespaces
