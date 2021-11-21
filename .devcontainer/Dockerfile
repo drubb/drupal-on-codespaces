@@ -26,3 +26,4 @@ RUN apt-get update -yq \
     # Create a user
     && useradd -m drupal -p drupal
 USER drupal
+ENV SHELL /bin/bash
