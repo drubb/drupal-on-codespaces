@@ -21,9 +21,8 @@ with activated Codespaces, then you'll see a "Codespaces" tab using the "<> Code
 
 ## Basic Docker image
 
-This project is based on the excellent PHP Docker image provided by [Wodby](https://github.com/Wodby). You'll get all PHP extensions
-usually required to run Drupal projects, even ImageMagick.
-I've added nodejs, npm and the Drupal Drush launcher for convenience. Take a look at .devcontainer/Dockerfile to find out more.
+This project is based on Debian's stable Bullseye image (Debian 11). I've added some php extensions
+required for Drupal, and also nodejs (LTS), npm and the Drupal Drush launcher for convenience. Take a look at devcontainer/Dockerfile to find out more.
 
 ## VSCode extensions and settings
 
@@ -37,8 +36,7 @@ features can be achived using various extensions. For now the following should w
 
 * Suggestions for Drupal Hooks: typing **hook_** in your .module files reveals a list of Drupal Hooks. Select one and
 you'll get the code snippet for your file, including docblock and function arguments.
-* Autocompletion for service identifiers: `\Drupal::service('')` provides a list of Drupal service ids, like e.g. 'entity_type.manager'.
-Should also work for `$container->get('')`.
+* Autocompletion for service identifiers: `\Drupal::service('')` provides a list of Drupal service ids, like e.g. 'entity_type.manager'. Should also work for `$container->get('')`. If it doesn't, please press F1 and run the 'Drupal Intellisense:Scan Workspace' command in VSCode.
 * Suggestions for Drupal service methods: supplied by PHP Intelephense extension, with the help of [PhpStorm Metadata](https://www.jetbrains.com/help/phpstorm/ide-advanced-metadata.html). To use this you need to generate the data using Drush: `drush generate phpstorm-metadata`. Repeat this whenever your services change,
 e.g. by installing contributed modules or writing custom services.
 * Autocompletion and Emmet support for Twig files.
