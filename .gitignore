@@ -2,5 +2,6 @@
 !.devcontainer/
 !.devcontainer/php.ini
 !.gitignore
+!.vsls.json
 !LICENCE
 !README.md
