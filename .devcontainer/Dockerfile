@@ -3,7 +3,7 @@ ARG DEBIAN_FRONTEND=noninteractive
 USER root
 RUN apt-get update -yq \
     # Install some common packages
-    && apt-get install curl git imagemagick sqlite3 wget unzip -yq \
+    && apt-get install curl git imagemagick nano sqlite3 wget unzip -yq \
     # Install PHP CLI with some extensions for Drupal development
     && apt-get install php-cli php-apcu php-curl php-dom php-gd php-imagick php-mbstring php-sqlite3 php-zip -yq \
     && apt-get install php-pear php-dev -yq \
