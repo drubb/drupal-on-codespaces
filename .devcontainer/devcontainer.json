@@ -15,6 +15,7 @@
 		"ms-vsliveshare.vsliveshare"
 	],
     "settings": {
+        "explorer.compactFolders": false,
         "files.associations": {
             "*.inc": "php",
             "*.install": "php",
