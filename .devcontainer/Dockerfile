@@ -9,8 +9,7 @@ RUN apt-get update -yq \
     && apt-get install php-pear php-dev -yq \
     && pear config-set php_ini /etc/php/7.4/cli/php.ini \
     && pecl install xdebug \
-    && echo 'xdebug.mode=debug,develop' >> /etc/php/7.4/cli/php.ini \
-    && echo 'apc.enable_cli=On' >> /etc/php/7.4/cli/php.ini \
+    && cat php.ini >> /etc/php/7.4/cli/php.ini \
     # Install NodeJS LTS
     && curl -sL https://deb.nodesource.com/setup_lts.x | bash \
     && apt-get install nodejs -yq \
