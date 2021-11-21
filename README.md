@@ -21,7 +21,7 @@ with activated Codespaces, then you'll see a "Codespaces" tab using the "<> Code
 
 ## Basic Docker image
 
-This project is based on Debian's stable Bullseye image (Debian 11). I've added some php extensions
+This project is based on Debian's stable Bullseye image (Debian 11). I've added some cli tools, php extensions
 required for Drupal, and also nodejs (LTS), npm and the Drupal Drush launcher for convenience. Take a look at devcontainer/Dockerfile to find out more.
 
 ## VSCode extensions and settings
