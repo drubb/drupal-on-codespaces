@@ -5,7 +5,7 @@ COPY php.ini /tmp
 RUN apt-get update -yq \
     # Add updated php sources
     && apt-get install curl -yq \
-    && curl -sSL https://packages.sury.org/php/README.txt | sudo bash -x \
+    && curl -sSL https://packages.sury.org/php/README.txt | bash -x \
     # Install some common packages
     && apt-get install git imagemagick nano openssh-server sqlite3 wget unzip -yq \
     && sed -i 's/<policy domain="coder" rights="none" pattern="PDF" \/>/<policy domain="coder" rights="read|write" pattern="PDF" \/>/g' /etc/ImageMagick-6/policy.xml \
