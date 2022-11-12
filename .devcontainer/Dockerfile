@@ -4,7 +4,7 @@ USER root
 COPY php.ini /tmp
 RUN apt-get update -yq \
     # Install some common packages
-    && apt-get install curl git imagemagick nano sqlite3 wget unzip -yq \
+    && apt-get install curl git imagemagick nano openssh-server sqlite3 wget unzip -yq \
     && sed -i 's/<policy domain="coder" rights="none" pattern="PDF" \/>/<policy domain="coder" rights="read|write" pattern="PDF" \/>/g' /etc/ImageMagick-6/policy.xml \
     # Install PHP CLI with some extensions for Drupal development
     && apt-get install php-cli php-apcu php-curl php-dom php-gd php-imagick php-mbstring php-sqlite3 php-zip -yq \
